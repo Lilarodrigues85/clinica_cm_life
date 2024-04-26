@@ -56,6 +56,53 @@
 
 .ortopedia {
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.subtitulo h2 {
+  color: #7A7A7C;
+  font-size: 23px;
+}
+
+.ortopedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ortopedia h3 {
+  color: #7A7A7C;
+  padding-top: 40px;
+}
+
+.ortopedia p {
+  width: 500px;
+  color: #7A7A7C;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.tabela-ortopedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-orto img{
+  width: 300px;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.cabecalho {
+  background-color: #00CAD1;
 }

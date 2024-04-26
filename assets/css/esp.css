@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+  background-color: #00CAD1;
+}
+
+.topo-menu{
+  min-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 45%;
+  flex-wrap: nowrap;
+}
+
+.logo img{
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  gap: 10%;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #0C6E71;
+}
+
+.menu-esp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 20px;
+}
+
+.menu-esp a {
+  color: #505051;
+  text-decoration: none;
+  border-bottom: 2px solid #00CAD1;
+}
+
+.menu-esp a:hover {
+  color: #00CAD1;
+}
+
+.ortopedia {
+  display: flex;
+  flex-direction: column;
+  
+}

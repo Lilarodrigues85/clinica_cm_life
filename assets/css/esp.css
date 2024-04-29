@@ -71,32 +71,36 @@
   font-size: 23px;
 }
 
-.ortopedia {
+.medicos {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.ortopedia h3 {
+.medicos h3 {
   color: #7A7A7C;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-.ortopedia p {
+.medicos p {
   width: 500px;
   color: #7A7A7C;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.tabela-ortopedia {
+.tabela-medicos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.img-orto img{
-  width: 300px;
+.img img{
+  width: 299px;
+  
+
 }
 
 table {
@@ -106,3 +110,46 @@ table {
 .cabecalho {
   background-color: #00CAD1;
 }
+
+.tabela-medicos th {
+  padding: 15px 0px 10px 0px ;
+  
+}
+
+.tabela-medicos td {
+  padding: 15px;
+}
+
+.corpo tr:nth-child(odd) {
+  background-color: #dfdfe3;
+}
+
+.rodape {
+  width: 100%;
+  background-color: #0C6E71;
+  margin-top: 50px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagemrodape img{
+  width: 100px;
+  padding-top: 25px;
+}
+
+.paragrafos {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.paragrafos p {
+  padding-top: 20px;
+  font-weight: normal;
+}
+
